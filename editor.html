@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <script src="editor.js"></script>
+        <script src="jquery.js"></script>
+        <link rel="stylesheet" href="editor.css" />
+        <script src="src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+    
+    <body>
+        <div id="toolbar">
+            <button id="save">
+                <img src="img/save.png">Save</button>
+            <button id="open">
+                <img src="img/restore.png">Open</button>
+        </div>  <pre id="editor">function foo(items) {
+				var i;
+				for (i = 0; i &lt; items.length; i++) {
+					alert("Ace Rocks " + items[i]);
+				}
+			}</pre>
+
+        <div id="statusbar">
+            <label><b>File Name:</b>
+            </label><span id="title"></span>
+
+            <label><b>Mode:</b>
+            </label><span id="mode"></span>
+
+        </div>
+    </body>
+
+</html>
