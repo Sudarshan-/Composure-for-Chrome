@@ -1,0 +1,169 @@
+#overlay-wrapper {
+    color: #AAAAAA;
+    font-family: Helvetica,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
+    font-size: 13px;
+    line-height: 17px;
+    width: 962px;
+}
+ h2.overlay-curr {
+    color: #FFFFFF;
+    font-family: Helvetica,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 0 10px;
+}
+.small {
+    font-size: 0.7em;
+    line-height: 0.7em;
+    text-decoration: none;
+}
+.overlay-row {
+    border-bottom: 1px solid #CCCCCC;
+    clear: both;
+    display: block;
+    margin: 15px 0 0;
+    padding: 0 0 15px;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.overlay-command {
+    background: none repeat scroll 0 0 padding-box #525255;
+    border: 1px solid rgba(4, 19, 30, 0.5);
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    float: left;
+    font-family: Georgia,serif;
+    height: 500.5px;
+    margin-right: 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 642.5px;
+}
+.title-bar-overlay {
+    float: left;
+    width: 23%;
+}
+.title-table-top {
+    height: 55px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.hb-command-title-bar {
+    background-color: #52525F;
+    padding: 0.5em 0;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.55);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    height: 25px;
+    outline-style: outset;
+    padding-left: 10px;
+    text-align: center;
+    width: 125px;
+}
+.overlay-divider {
+    border-style: none solid none none;
+    border-width: medium 3px medium medium;
+    float: left;
+    height: 100%;
+    padding: 3px 3px 0 0;
+    width: 0;
+}
+.command-section-overlay {
+    float: left;
+    height: 100%;
+    overflow-y: auto;
+    width: 76%;
+}
+.header-row-comp {
+    padding: 5px 5px 1px;
+}
+.link_td {
+    width: 125px;
+}
+.result-column-comp {
+    padding: 5px 5px 1px;
+
+}
+#overlay-wrapper .overlay-panel a{
+  color: #FFFFFF;
+}
+.overlay-arrows {
+    float: right;
+    font-family: Helvetica,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
+    text-align: center;
+}
+.br-exit {
+    height: 25px;
+    margin: -6px -16px 0 24px;
+    width: 25px;
+}
+ .overlay-curr {
+    float: left;
+    font-family: Helvetica,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
+    text-align: left;
+    width: 60%;
+}
+.overlay-panel {
+    background: none repeat scroll 0 0 padding-box rgba(4, 19, 30, 0.96);
+    border: 10px solid rgba(255, 255, 255, 0.85);
+    border-radius: 15px 15px 15px 15px;
+    color: #999999;
+    padding: 15px 25px 4px;
+    z-index: 40000;
+}
+.overlay-header {
+    text-align: center;
+}
+.centered-panel {
+    height: 575px;
+    left: 50%;
+    margin-left: -375px;
+    position: absolute;
+    top: 20px;
+    width: auto;
+}
+.hb-command-title-bar {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.55);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    height: 25px;
+    outline-style: outset;
+    padding-left: 10px;
+    text-align: center;
+    width: 125px;
+    background-color: #52525F;
+    padding: 0.5em 0;
+}
+.overlay-divider {
+    border-color: -webkit-use-text-color #FFFFFF ;
+    border-right: 3px solid #FFFFFF;
+    border-style: none solid none none;
+    border-width: medium 3px medium medium;
+    float: left;
+    height: 100%;
+    padding: 3px 3px 0 0;
+    width: 0;
+}
+.command-section-overlay {
+    float: left;
+    height: 100%;
+    overflow-y: auto;
+    width: 76%;
+}
+.title-bar-overlay {
+    float: left;
+    width: 23%;
+}
+.title-table-top {
+    height: 55px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
