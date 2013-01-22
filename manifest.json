@@ -1,0 +1,57 @@
+{
+    "name": "Composure",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "This will enable composure functionality for Chrome",
+    "content_scripts": [
+        {
+            "all_frames": true,
+            "js": [
+                "jquery.js",
+                "formatloginpage.js",
+                "menueditor.js",
+                "adminbutton.js",
+                "quotesearch.js",
+                "attributeloader.js",
+                "attribute_modify.js",
+                "gss.js",
+                "xslsearch.js",
+                "xslprintlink.js"
+            ],
+            "matches": [
+                "https://*.bigmachines.com/*"
+            ],
+            "css": [
+                "menueditor.css",
+                "integration.css"
+            ]
+        }
+    ],
+    "icons": {
+        "16": "composure.png",
+        "48": "composure.png",
+        "128": "composure.png"
+    },
+    "browser_action": {
+        "default_icon": "composure.png",
+        "default_popup": "composure.html"
+    },
+    "permissions": [
+        "tabs",
+        "https://*.bigmachines.com/*"
+    ],
+    "web_accessible_resources": [
+        "composure.png",
+        "img/button10.gif",
+        "img/logo.png",
+        "x.png",
+        "img/ajax-loader.gif",
+        "bgfooter.gif",
+        "restore.png",
+        "edit.png",
+        "find.png",
+        "save.png",
+        "admin.png"
+    ],
+    "options_page": "options.html"
+}
