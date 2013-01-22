@@ -1,0 +1,183 @@
+.br_clr {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    font - size: 0;
+}.br_clrfix: after {
+    visibility: hidden;
+    display: block;
+    font - size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}.br_clrfix {
+    display: inline - block;
+} * html.br_clrfix {
+    height: 1 % ;
+}.br_clrfix {
+    display: block;
+}
+
+#br_menu_div {
+    -webkit - transition: all.5s ease - out;
+    background: -webkit - linear - gradient(left, #bbb, #fff);
+    box - shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.7);
+    position: fixed;
+    background - color: #eee; - webkit - border - radius - bottomleft: 7px;
+    border - bottom - left - radius: 7px;
+    right: 0 % ;
+    top: 33 % ;
+    padding: 0px 1px 0px 0px;
+    border: 1px solid #093161;
+  border-right: 0px;
+	min-height: 120px;
+	opacity: 0.8;
+	z-index: 40001;
+	overflow:hidden;
+}
+
+.button_tiny{
+	color: red;
+	display: inline;
+	font-size: 0.8em; 
+	margin: 0px; 
+	padding: 0px; 
+	line-height: 0px;
+}
+
+
+
+# br_menu_div: hover {
+        opacity: 1.0;
+        padding: 0px 3px;
+    }#br_menu_div#br_button_div {
+        -webkit - transition: all.5s ease - out;
+        width: 17px;
+    }#br_menu_div.expanded {
+        width: 170px;
+    }
+
+
+    #br_menu_div#br_button_div.expanded {
+        width: 170px;
+    }
+
+    #br_menu_div div.br_button {
+        color: #000; 
+	font-size: 12pt;
+	font-family:"Trebuchet MS", Calibri,Helvetica,Arial,sans-serif; 
+	line-height: 19px;
+	-webkit-border-radius: 7px; 
+	border-radius: 7px;
+	background-color:# fff;
+        margin: 1px 0px 1px 1px;
+        border: 1px solid#bbb;
+        /*border-color: #669 #336 #336 #669;*/
+        display: block;
+        text - align: center;
+    }
+
+    #br_menu_div div.br_button: hover {
+        background: #bbf;
+    }
+
+    #br_menu_div.expanded div.br_button {}
+
+    #br_menu_div.short {
+        float: left;
+    }
+
+    #br_menu_div.br_button_short_label {
+        display: block;
+        font - size: 0px;
+        margin: 0px 0px 1px - 1px;
+        line - height: 0px;
+    }#br_menu_div.br_button_label {
+        font - size: 13px;
+        margin - bottom: -1em;
+        display: none;
+        white - space: nowrap;
+    }#br_menu_div.expanded.br_button_label {
+        display: block;
+    }
+
+    #br_menu_div.br_button_icon {
+        display: block;
+        min - height: 16px;
+        padding: 2px 0px;
+    }
+
+    #br_menu_div#button_box_style = {
+        display: block;
+        align: center;
+    }#br_menu_div.br_separator {
+        color: #336;
+	align:left;
+	font-size: 0pt;
+	line-height: 0pt;
+	font-family:"Trebuchet MS", Calibri,Helvetica,Arial,sans-serif;
+	width:100%;
+	border-bottom:1px solid # 336;
+        margin - top: 0px;
+        opacity: 0.0; - webkit - transition: all.2s ease - out;
+    }#br_menu_div.expanded.br_separator {
+        line - height: 7pt;
+        font - size: 7pt;
+        opacity: 1.0;
+    }#br_menu_div.br_dropdown {}
+
+    #br_menu_div#br_expand_icon {
+        width: 10px;
+        height: 10px;
+        /*meh, don't need an icon. blank space is enough*/
+        /*background-image: url(resource://br_images/lil-left.png);*/
+    }
+
+    #br_menu_div.expanded#br_expand_icon {
+        /*meh, don't need an icon. blank space is enough*/
+        /*background-image: url(resource://br_images/lil-right.png);*/
+    }
+
+    #composureStyle {
+        height: 10px;
+    }
+
+    .composureStyle {
+        float: left;
+    }
+
+    #composureButton {
+        cursor: pointer;
+    }
+
+    #quotesearchdiv {
+        margin: 0px 0px 1px;
+    }
+
+    span.composureStyle {
+        width: 65 % ;
+    }
+
+    #filter - attr - list {
+        width: 80 % ;
+    }
+
+    #quick - search - bar {
+        width: 80px;
+    }#composure_helper {
+        float: left;
+        width: 17 % ;
+        border - right: 2px solid;
+    }
+    div.form - header {
+        border: 1px solid;
+    }.comp_img {
+        height: 12px;
+        width: 12px;
+    }#menuEntry {
+        float: left;
+        width: 80 % ;
+    }
